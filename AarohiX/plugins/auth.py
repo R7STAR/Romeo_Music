@@ -51,7 +51,7 @@ async def auth(client, message: Message, _):
                 if user.id not in get:
                     get.append(user.id)
             await save_authuser(message.chat.id, token, assis)
-            await message.reply_sticker("CAACAgUAAx0CdHsNrwACAwtkqULXDKoIj_Rv6T-qUy_-FeOZVQACpAEAAvTYCFYz7m5Pg-pS-S8E")
+            await message.reply_sticker("CAACAgUAAxkBAAIKH2TUgL0_1sHuFivy3bem4lOIZoJUAAI8BQACgVnBV5XDPBGCqRICMAQ")
             return await message.reply_text("**» ᴀᴅᴅᴇᴅ ᴛᴏ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ ᴏꜰ ʏᴏᴜʀ ɢʀᴏᴜᴘ.**")
         else:
             await message.reply_text("**» ᴀʟʀᴇᴀᴅʏ ɪɴ ᴛʜᴇ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ.**")
@@ -79,7 +79,7 @@ async def auth(client, message: Message, _):
             if user_id not in get:
                 get.append(user_id)
         await save_authuser(message.chat.id, token, assis)
-        await message.reply_sticker("CAACAgUAAx0CdHsNrwACAwtkqULXDKoIj_Rv6T-qUy_-FeOZVQACpAEAAvTYCFYz7m5Pg-pS-S8E")
+        await message.reply_sticker("CAACAgUAAxkBAAIKHWTUgLMxuff4F2aiBloZmEeFJzPiAAKgBQACmofBV1_GVwkdK3dNMAQ")
         return await message.reply_text("**» ᴀᴅᴅᴇᴅ ᴛᴏ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ ᴏꜰ ʏᴏᴜʀ ɢʀᴏᴜᴘ.**")
     else:
         await message.reply_text("**» ᴀʟʀᴇᴀᴅʏ ɪɴ ᴛʜᴇ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ.**")
