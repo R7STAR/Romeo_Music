@@ -71,13 +71,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                     text="🥰 ᴍᴏʀᴇ 🥰", url=f"https://t.me/ZiddiXBot"
             ),
-        ], 
-        [ 
-             InlineKeyboardButton( 
-                 text="🥰 ᴏᴜʀ ɢʀᴏᴜᴘ 🥰", url=f"https://t.me/+iG7cgnoRiKhlMzU1"),
-             ),
-     ],
+           ],
      ]
     return buttons
+
+
 
 
