@@ -39,7 +39,7 @@ async def start_comm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAx0CdHsNrwACAwtkqULXDKoIj_Rv6T-qUy_-FeOZVQACpAEAAvTYCFYz7m5Pg-pS-S8E")
+            await message.reply_sticker("CAACAgUAAxkBAAIKH2TUgL0_1sHuFivy3bem4lOIZoJUAAI8BQACgVnBV5XDPBGCqRICMAQ")
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
@@ -151,9 +151,9 @@ async def start_comm(client, message: Message, _):
 📎 **ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:** [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
 🔗 **ʟɪɴᴋ:** [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})
 
-**💞🌹ᴅᴀʙᴀɴɢ ᴀʟᴡᴀʏs ᴏɴ ᴛᴏᴘ🌹💞**
+**💞🌹ʀᴏᴍᴇᴏ ᴀʟᴡᴀʏs ᴏɴ ᴛᴏᴘ🌹💞**
 
-|| ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ [ᴀᴀᴅɪᴛʏᴀ❣️](https://t.me/sexyaaditya) 🥀 ||
+|| ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ [ʟᴜᴄᴋʏ❣️](https://t.me/itz_Lucky_Raja) 🥀 ||
 
 ᴀɪᴍ[💖] sᴇᴀʀᴄʜ ᴩᴏᴡᴇʀᴇᴅ ʙʏ {config.MUSIC_BOT_NAME}"""
             key = InlineKeyboardMarkup(
@@ -163,7 +163,7 @@ async def start_comm(client, message: Message, _):
                             text="🍃•ʏᴏᴜᴛᴜʙᴇ•🍃", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="•🍁sᴜᴩᴩᴏʀᴛ🍁•", url="https://t.me/DabangTheBrand"
+                            text="•🍁sᴜᴩᴩᴏʀᴛ🍁•", url="https://t.me/+g0YcEKl54yU0ZTU9"
                         ),
                     ],
                 ]
@@ -192,7 +192,7 @@ async def start_comm(client, message: Message, _):
         out = private_panel(_, app.username, OWNER)
         if config.START_IMG_URL:
             try:
-                await message.reply_sticker("CAACAgUAAx0CdHsNrwACAwtkqULXDKoIj_Rv6T-qUy_-FeOZVQACpAEAAvTYCFYz7m5Pg-pS-S8E")
+                await message.reply_sticker("CAACAgUAAxkBAAIKHWTUgLMxuff4F2aiBloZmEeFJzPiAAKgBQACmofBV1_GVwkdK3dNMAQ")
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
